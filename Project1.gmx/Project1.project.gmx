@@ -12,6 +12,9 @@
     <sprites name="enemy">
       <sprite>sprites\spr_enemy</sprite>
     </sprites>
+    <sprites name="meny">
+      <sprite>sprites\spr_menypil</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
