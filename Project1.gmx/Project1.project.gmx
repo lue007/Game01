@@ -21,6 +21,7 @@
   <objects name="objects">
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
+      <object>objects\obj_tilbake</object>
     </objects>
     <objects name="players">
       <object>objects\obj_player</object>
