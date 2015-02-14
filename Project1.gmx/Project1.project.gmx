@@ -8,9 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_button</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\bg_skyer</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_button</object>
