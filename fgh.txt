@@ -1,7 +1,0 @@
-
--platform
--2 plyaer
-	-coop
-	-vs
--platform
--vanskelig
