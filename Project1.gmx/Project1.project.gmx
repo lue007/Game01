@@ -18,9 +18,7 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
@@ -31,12 +29,13 @@
     <objects name="enemy">
       <object>objects\object2</object>
     </objects>
+    <object>objects\object3</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <rooms name="mainmenu">
       <room>rooms\rm_mainmenu</room>
     </rooms>
-    <room>rooms\rm_start</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
