@@ -8,9 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_button</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
@@ -20,6 +18,7 @@
   </shaders>
   <objects name="objects">
     <object>objects\obj_button</object>
+    <object>objects\object2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
