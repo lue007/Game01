@@ -1,1 +1,1 @@
-
+draw_clear(red)
