@@ -13,7 +13,9 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <rooms name="rooms">
+      <room>rooms\room0</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
