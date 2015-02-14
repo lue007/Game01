@@ -25,8 +25,49 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index = 0;
+            <string>//Declaring image
+image_index = 0;
 image_speed = 0;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Variabel
+tilbake = false;
+trykk = false;
+//Image changing(hover)
+
+
+//Room play
+if mouse_check_button_pressed(mb_left)
+{
+    if (mouse_x&gt;bbox_left &amp;&amp; mouse_x&lt;bbox_right &amp;&amp; mouse_y&gt;bbox_top &amp;&amp; mouse_y&lt;bbox_bottom)
+     trykk = true else trykk = false;
+    if (trykk = true)
+    {
+        room_goto(rm_start);
+    }
+}
+
 </string>
           </argument>
         </arguments>
