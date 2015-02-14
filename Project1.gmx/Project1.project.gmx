@@ -22,6 +22,9 @@
     <objects name="players">
       <object>objects\obj_player</object>
     </objects>
+    <objects name="enemy">
+      <object>objects\object2</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
