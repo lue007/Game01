@@ -12,13 +12,14 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <objects name="players">
+      <object>objects\obj_player</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
-    <rooms name="rooms">
-      <room>rooms\room0</room>
-    </rooms>
+    <room>rooms\rom_start</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
