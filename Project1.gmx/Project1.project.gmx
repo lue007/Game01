@@ -9,6 +9,9 @@
     <sprites name="players">
       <sprite>sprites\spr_player</sprite>
     </sprites>
+    <sprites name="enemy">
+      <sprite>sprites\spr_enemy</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,7 +21,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rom_start</room>
+    <room>rooms\rm_start</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
