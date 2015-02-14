@@ -6,12 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="meny">
+      <background>background\bg_hovedmeny</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <shaders name="shaders"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <rooms name="rooms">
+    <rooms name="meny">
+      <room>rooms\rm_hovedmeny</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
