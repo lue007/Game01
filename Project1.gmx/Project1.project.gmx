@@ -18,9 +18,11 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
+      <object>objects\obj_tilbake</object>
     </objects>
     <objects name="players">
       <object>objects\obj_player</object>
@@ -34,6 +36,7 @@
     <rooms name="mainmenu">
       <room>rooms\rm_start</room>
       <room>rooms\rm_mainmenu</room>
+      <room>rooms\rm_start</room>
     </rooms>
   </rooms>
   <help>
