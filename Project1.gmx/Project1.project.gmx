@@ -21,7 +21,6 @@
   <objects name="objects">
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
-      <object>objects\obj_tilbake</object>
     </objects>
     <objects name="players">
       <object>objects\obj_player</object>
@@ -29,12 +28,10 @@
     <objects name="enemy">
       <object>objects\object2</object>
     </objects>
-    <object>objects\object3</object>
   </objects>
   <rooms name="rooms">
     <rooms name="mainmenu">
       <room>rooms\rm_mainmenu</room>
-      <room>rooms\rm_start</room>
     </rooms>
   </rooms>
   <help>
