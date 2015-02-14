@@ -13,12 +13,15 @@
       <sprite>sprites\spr_enemy</sprite>
     </sprites>
     <sprites name="meny">
-      <sprite>sprites\spr_menypil</sprite>
+      <sprite>sprites\spr_menu_play</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="mainmenu">
+      <object>objects\obj_mainmenu</object>
+    </objects>
     <objects name="players">
       <object>objects\obj_player</object>
     </objects>
@@ -27,6 +30,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="mainmenu">
+      <room>rooms\rm_mainmenu</room>
+    </rooms>
     <room>rooms\rm_start</room>
   </rooms>
   <help>
