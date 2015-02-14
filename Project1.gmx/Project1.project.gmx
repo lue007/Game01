@@ -18,7 +18,6 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
@@ -32,7 +31,6 @@
     <object>objects\object3</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_start</room>
     <rooms name="mainmenu">
       <room>rooms\rm_start</room>
       <room>rooms\rm_mainmenu</room>
