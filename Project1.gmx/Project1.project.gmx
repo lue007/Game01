@@ -34,9 +34,9 @@
   </objects>
   <rooms name="rooms">
     <rooms name="mainmenu">
+      <room>rooms\rm_start</room>
       <room>rooms\rm_mainmenu</room>
     </rooms>
-    <room>rooms\rm_start</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
