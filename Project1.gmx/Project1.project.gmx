@@ -5,22 +5,13 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\spr_button</sprite>
-  </sprites>
+  <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts"/>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\shader0.shader</shader>
-  </shaders>
-  <objects name="objects">
-    <object>objects\obj_button</object>
-    <object>objects\object2</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_startmenu</room>
-  </rooms>
+  <shaders name="shaders"/>
+  <objects name="objects"/>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
