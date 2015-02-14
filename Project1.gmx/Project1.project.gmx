@@ -34,6 +34,7 @@
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <rooms name="mainmenu">
+      <room>rooms\rm_start</room>
       <room>rooms\rm_mainmenu</room>
     </rooms>
   </rooms>
