@@ -14,6 +14,7 @@
     </sprites>
     <sprites name="meny">
       <sprite>sprites\spr_menu_play</sprite>
+      <sprite>sprites\spr_exit</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -22,6 +23,7 @@
     <objects name="mainmenu">
       <object>objects\obj_mainmenu</object>
       <object>objects\obj_tilbake</object>
+      <object>objects\obj_exit</object>
     </objects>
     <objects name="players">
       <object>objects\obj_player</object>
